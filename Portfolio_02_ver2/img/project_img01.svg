@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1400" height="2685" viewBox="0 0 1400 2685">
+  <defs>
+    <filter id="사각형_5260" x="246" y="1144" width="243" height="238" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#9e9ea5" flood-opacity="0.345"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="사각형_5261" x="477" y="1144" width="243" height="238" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#9e9ea5" flood-opacity="0.345"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="사각형_5262" x="708" y="1144" width="243" height="238" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-color="#9e9ea5" flood-opacity="0.345"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="사각형_5263" x="939" y="1144" width="243" height="238" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-4"/>
+      <feFlood flood-color="#9e9ea5" flood-opacity="0.345"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="사각형_5267" data-name="사각형 5267" width="893" height="1041" transform="translate(733 245)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="사각형_5264" x="1026.12" y="-52.865" width="671.761" height="618.731" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-5"/>
+      <feFlood flood-color="#9e9ea5" flood-opacity="0.345"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="사각형_5265" x="568.12" y="224.135" width="671.761" height="618.731" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-6"/>
+      <feFlood flood-color="#9e9ea5" flood-opacity="0.345"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="사각형_5266" x="954.12" y="445.135" width="671.761" height="618.731" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-7"/>
+      <feFlood flood-color="#9e9ea5" flood-opacity="0.345"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_5106" data-name="그룹 5106" transform="translate(-226 -233)">
+    <rect id="사각형_5258" data-name="사각형 5258" width="1400" height="2685" rx="9" transform="translate(226 233)" fill="#2053d6"/>
+    <text id="Staking_service_Platform" data-name="Staking service Platform" transform="translate(328 377)" fill="#fff" font-size="21" font-family="ArialMT, Arial" letter-spacing="-0.01em"><tspan x="0" y="0">Staking service Platform</tspan></text>
+    <text id="Main_goals_needed" data-name="Main goals needed" transform="translate(834 1346)" fill="#fff" font-size="21" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="-0.01em"><tspan x="0" y="0">Main goals needed</tspan></text>
+    <text id="Go_to_Website" data-name="Go to Website" transform="translate(328 967)" fill="#fff" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="-0.01em"><tspan x="0" y="0">Go to Website</tspan></text>
+    <text id="www.apis.mm" transform="translate(446 967)" fill="#fff" font-size="16" font-family="ArialMT, Arial" letter-spacing="-0.01em" opacity="0.464"><tspan x="0" y="0">www.apis.mm</tspan></text>
+    <text id="블록체인_네트워크는_사용자들의_자발적인_참여를_통해_이루어집니다._사용자들을_유인하고_적극적인_참여를_불러일으키기_위해_블록체인_프로젝트들은_저마다의_독특한_인센티브_시스템을_보유하고_있습니다._Masternode_PoS_DPoS를_몇_번의_클릭만으로_보다_쉽고_편리하게_참여하고_매일_쌓이는_보상의_즐거움을_경험하세요." data-name="블록체인 네트워크는 사용자들의 자발적인 참여를 통해 이루어집니다. 사용자들을 유인하고 적극적인 참여를 불러일으키기 위해 블록체인 프로젝트들은 저마다의 독특한 인센티브 시스템을 보유하고 있습니다. 
+Masternode, PoS, DPoS를 몇 번의 클릭만으로 보다 쉽고 편리하게 참여하고 매일 쌓이는 보상의 즐거움을 경험하세요." transform="translate(328 504)" fill="#fff" font-size="14" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" letter-spacing="-0.01em"><tspan x="0" y="13">블록체인</tspan><tspan y="13" font-family="ArialMT, Arial"> </tspan><tspan y="13">네트워크는</tspan><tspan y="13" font-family="ArialMT, Arial"> </tspan><tspan y="13">사용자들의</tspan><tspan y="13" font-family="ArialMT, Arial"> </tspan><tspan y="13">자발적인</tspan><tspan y="13" font-family="ArialMT, Arial"> </tspan><tspan y="13">참여를</tspan><tspan y="13" font-family="ArialMT, Arial"> </tspan><tspan y="13">통해</tspan><tspan y="13" font-family="ArialMT, Arial"> </tspan><tspan y="13">이루어집니다</tspan><tspan y="13" font-family="ArialMT, Arial">. </tspan><tspan y="13">사용</tspan><tspan x="0" y="36">자들을</tspan><tspan y="36" font-family="ArialMT, Arial"> </tspan><tspan y="36">유인하고</tspan><tspan y="36" font-family="ArialMT, Arial"> </tspan><tspan y="36">적극적인</tspan><tspan y="36" font-family="ArialMT, Arial"> </tspan><tspan y="36">참여를</tspan><tspan y="36" font-family="ArialMT, Arial"> </tspan><tspan y="36">불러일으키기</tspan><tspan y="36" font-family="ArialMT, Arial"> </tspan><tspan y="36">위해</tspan><tspan y="36" font-family="ArialMT, Arial"> </tspan><tspan y="36">블록체인</tspan><tspan y="36" font-family="ArialMT, Arial"> </tspan><tspan y="36">프로젝트들</tspan><tspan x="0" y="59">은</tspan><tspan y="59" font-family="ArialMT, Arial"> </tspan><tspan y="59">저마다의</tspan><tspan y="59" font-family="ArialMT, Arial"> </tspan><tspan y="59">독특한</tspan><tspan y="59" font-family="ArialMT, Arial"> </tspan><tspan y="59">인센티브</tspan><tspan y="59" font-family="ArialMT, Arial"> </tspan><tspan y="59">시스템을</tspan><tspan y="59" font-family="ArialMT, Arial"> </tspan><tspan y="59">보유하고</tspan><tspan y="59" font-family="ArialMT, Arial"> </tspan><tspan y="59">있습니다</tspan><tspan y="59" font-family="ArialMT, Arial">. </tspan><tspan font-family="ArialMT, Arial"><tspan x="0" y="82">Masternode, PoS, DPoS</tspan><tspan y="82" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">를</tspan><tspan y="82"> </tspan><tspan y="82" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">몇</tspan><tspan y="82"> </tspan><tspan y="82" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">번의</tspan><tspan y="82"> </tspan><tspan y="82" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">클릭만으로</tspan><tspan y="82"> </tspan><tspan y="82" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">보다</tspan><tspan y="82"> </tspan><tspan y="82" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">쉽고</tspan><tspan y="82"> </tspan><tspan y="82" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">편리하게</tspan><tspan y="82"> </tspan><tspan y="82" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">참여</tspan><tspan x="0" y="105" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">하고</tspan><tspan y="105"> </tspan><tspan y="105" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">매일</tspan><tspan y="105"> </tspan><tspan y="105" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">쌓이는</tspan><tspan y="105"> </tspan><tspan y="105" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">보상의</tspan><tspan y="105"> </tspan><tspan y="105" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">즐거움을</tspan><tspan y="105"> </tspan><tspan y="105" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">경험하세요</tspan><tspan y="105">.</tspan></tspan></text>
+    <text id="APIS_PLATFORM_WEB" data-name="APIS PLATFORM WEB" transform="translate(328 444)" fill="#fff" font-size="58" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="-0.01em"><tspan x="0" y="0">APIS PLATFORM WEB</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 226, 233)" filter="url(#사각형_5260)">
+      <rect id="사각형_5260-2" data-name="사각형 5260" width="183" height="178" rx="9" transform="translate(276 1174)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 226, 233)" filter="url(#사각형_5261)">
+      <rect id="사각형_5261-2" data-name="사각형 5261" width="183" height="178" rx="9" transform="translate(507 1174)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 226, 233)" filter="url(#사각형_5262)">
+      <rect id="사각형_5262-2" data-name="사각형 5262" width="183" height="178" rx="9" transform="translate(738 1174)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 226, 233)" filter="url(#사각형_5263)">
+      <rect id="사각형_5263-2" data-name="사각형 5263" width="183" height="178" rx="9" transform="translate(969 1174)" fill="#fff"/>
+    </g>
+    <g id="마스크_그룹_15" data-name="마스크 그룹 15" clip-path="url(#clip-path)">
+      <g transform="matrix(1, 0, 0, 1, 226, 233)" filter="url(#사각형_5264)">
+        <rect id="사각형_5264-2" data-name="사각형 5264" width="504" height="349" rx="9" transform="translate(1056.12 236.71) rotate(-31)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 226, 233)" filter="url(#사각형_5265)">
+        <rect id="사각형_5265-2" data-name="사각형 5265" width="504" height="349" rx="9" transform="translate(598.12 513.71) rotate(-31)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 226, 233)" filter="url(#사각형_5266)">
+        <rect id="사각형_5266-2" data-name="사각형 5266" width="504" height="349" rx="9" transform="translate(984.12 734.71) rotate(-31)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="86" viewBox="0 0 31 86">
+  <g id="scroll" transform="translate(-1802 -900)">
+    <text id="Scroll-2" data-name="Scroll" transform="translate(1810 900) rotate(90)" fill="#282a31" font-size="23" font-family="Avenir-Black, Avenir" font-weight="800"><tspan x="0" y="0">Scroll</tspan></text>
+    <g id="타원_7" data-name="타원 7" transform="translate(1808 964)" fill="none" stroke="#282a31" stroke-width="2">
+      <circle cx="11" cy="11" r="11" stroke="none"/>
+      <circle cx="11" cy="11" r="10" fill="none"/>
+    </g>
+    <path id="패스_6792" data-name="패스 6792" d="M3147.993,964.45l5.237,4.838,2.252-2.033,3.106-2.8" transform="translate(-1334.179 9.048)" fill="none" stroke="#282a31" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
