@@ -1,0 +1,85 @@
+@charset "utf-8"
+    
+htm{font-size: 20px; }
+body{font-size: 1rem; letter-spacing: -.3px; overflow-x:hidden; width: 100% }
+
+
+.main_wrap {height: 100vh;}
+#header {position: fixed;  top: 0; left: 0; right: 0;  box-shadow: 0 2px 8px 0 hsla(0,0%,90.8%,.0); height: 95px; box-sizing: border-box; background-color: #fff; z-index: 100;}
+#header .content {height: 100%; max-width: 1560px; margin: 0 auto; padding: 0; box-sizing: border-box;}
+#header .content .logo { display: inline-flex; align-items: center; justify-content: center; height: 100%}
+#header .content .menu { display: inline-flex; float: right; height: 95px; align-items: center;}
+#header .content .menu ul li {float: left;height:40px; line-height:40px; }
+#header .content .menu ul li a {display: block; font-size: 1rem; padding-left:40px; font-weight: 500}
+
+
+.banner { display: block; padding-top: 95px; margin: 0 auto; box-sizing: border-box;}
+
+.banner {width: 1560px; height:100%; margin: 0 auto; box-sizing: border-box; }
+.banner .text { display: inline-block; padding-top: 7%; padding-bottom: 5%; height: 100%}
+.banner .main_text{font-size: 4.5rem; color: #2865FF; padding-bottom: 35px; letter-spacing: -3px;}
+.banner .sub_text li {float: left;  font-size: 1rem; color: #757B90; padding-right: 20px; }
+.banner .info_text { font-size: .9rem; color: #757b90; line-height: 1.4rem; position: absolute; bottom:73px;}
+.banner .main_img { display:inline-block;position: absolute; float: right; right: 0; z-index: -1;}
+.banner .scroll {display: inline-block; float: right; right: 180px; position: absolute; bottom:73px; filter: drop-shadow(5px 10px 10px #9FA3AD)}
+
+
+#pg_main .about {display: block; background-color: #3562ff; width: 100%; height: 600px; position: relative;}
+#pg_main .about .img {display: inline-block; padding-left: 180px; margin-top: 100px; padding-right: 80px;}
+#pg_main .about  .profile {display: inline-block; height: 100%; position: absolute;}
+#pg_main .about  .profile .name {padding-top: 140px; padding-bottom: 60px; color: #fff; letter-spacing: 0;}
+#pg_main .about  .profile .name .ko {font-size: 2.3rem; font-weight: 600}
+#pg_main .about  .profile .name .en {font-size: 1.3rem;font-weight: 300; padding-top: 5px;}
+#pg_main .about  .profile .detail {padding-top: 10px; font-size: .85rem; color: #fff; font-weight: 300;display: inline-block; width: 100%;}
+#pg_main .about  .profile .detail p {float: left; line-height: 25px;}
+#pg_main .about  .profile .detail .pf{padding-right: 88px;}
+#pg_main .about  .profile .detail .year {color: #A9C0F9;padding-right:13px;}
+#pg_main .about  .profile .detail .ht{padding-right: 108px;}
+#pg_main .about  .profile .detail .ls{padding-right: 106px;}
+
+
+
+
+#pg_main .skills {display: block;  width: 100% ;height: 490px; margin-top: -50px; position: relative; box-sizing: border-box;}
+#pg_main .skills .bg { position: absolute; display: inline-block; width: 1740px; height: 430px; background-color: #222229; z-index: 1; left: 0;}
+#pg_main .skills .content {position: absolute; display: inline-block; width: 100%; z-index: 4;}
+#pg_main .skills h2 { width: 880px;  margin: auto; padding-top: 120px;  color: #fff; z-index: 2; text-align: center; font-weight: 500;}
+#pg_main .skills .content ul { width: 880px; height: 120px; margin: auto; padding-top: 90px; }
+#pg_main .skills .content ul li {float: left; padding: 0 17px;}
+#pg_main .skills .content dl {width: 91px; height: 119px; }
+#pg_main .skills .content dl dt {text-align: center;}
+#pg_main .skills .content dl .title {text-align: center; padding-top: 25px; font-size:1rem; color: #B2B2B2; font-weight:300; }
+#pg_main .skills .content dl .per {text-align: center; font-size:1rem; font-weight: 700; padding-top: 13px; color: #30C4EF;}
+#pg_main .skills .content dl .ai {color: #EC9636;}
+#pg_main .skills .content dl .in {color: #EB68A1;}
+#pg_main .skills .content dl .ae {color: #AD66FC;}
+#pg_main .skills .content dl .xd {color: #E844B8;}
+#pg_main .skills .content dl .sk {color: #FDAD00;}
+#pg_main .skills .content dl .br {color: #28A9E1;}
+
+
+#pg_main .portfolio {display: block;width:1600px;margin: 0 auto; padding-top:30px;}
+#pg_main .portfolio h3 { padding-top: 158px; font-size: 1.5rem; color: #4A4A55;}
+#pg_main .portfolio h1 {display: inline-flex; font-size: 3.3rem; color:#2865FF; padding-bottom: 65px; font-weight: 900;}
+#pg_main .portfolio .filter {display: inline-flex; float: right; padding-top: 8px;}
+#pg_main .portfolio .filter ul li {float: left; padding-left: 12px;}
+#pg_main .portfolio .filter a {display: inline-block; background-color:#E1E3EA; width:115px; height: 36px;text-align: center; line-height: 36px;color: #fff; border-radius: 20px; font-weight: 500; }
+#pg_main .portfolio .filter a.click { background-color: #FF64FF;}
+#pg_main .portfolio .filter a:hover {background-color: #FF64FF;}
+
+#pg_main .portfolio .pf_list { display: inline-block; width:100%;height: 100%;  padding-bottom: 250px; margin: 0 auto;} 
+#pg_main .portfolio .pf_list ul li { float: left; display: inline-block; padding-bottom: 28px; padding-right: 26px;}
+#pg_main .portfolio .pf_list ul li a { float: left; background-color:#2865FF; width: 380px; height: 380px; padding:310px 30px 0 30px; box-sizing: border-box; font-size: 1.3rem; color: #fff;}
+#pg_main .portfolio .pf_list ul li:nth-child(4n) {padding-right: 0px;}
+#pg_main .portfolio .pf_list ul li .sbh {background: }
+
+#contact {display: block;  width: 100%; height: 300px;background-color: #222229;}
+#contact .contact_wrap {display: block; width:1600px; margin: 0 auto; height: 100%;}
+#contact h1 {color: #fff; font-size: 2.5rem; padding-top: 80px; padding-bottom: 20px; }
+#contact a {text-decoration: underline;color: #fff; font-size: 1.2rem; padding-bottom: 20px; font-weight: 300}
+#contact p {color: #fff; font-size: 1.2rem; padding-top: 10px; font-weight: 300}
+
+#footer {display: block; width: 100%; height: 50px;background-color: #222229;}
+#footer .footer_wrap {display: block; width:1600px; margin: 0 auto; height: 100%; color: #b2b2b2; font-size: .8rem; font-weight: 300}
+#footer .copy {display: inline-block;}
+#footer .info {display: inline-block; float: right;}

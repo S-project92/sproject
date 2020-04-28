@@ -1,0 +1,9 @@
+@charset "utf-8"
+
+.main_wrap {height: 100vh;}
+#header .logo {float: none; position: absolute; left: 35px; }
+#header .menu ul {right:0; padding-right: 35px; float:right;}
+
+.banner .main_text{font-size: 4rem; color: #2865FF;  letter-spacing: -3px;  padding: 10px 0 25px 35px;}
+.banner .sub_text {padding-left: 35px;}
+.banner .info_text {padding-left: 35px;}

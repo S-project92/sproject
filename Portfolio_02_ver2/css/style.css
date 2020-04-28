@@ -1,0 +1,114 @@
+@charset "utf-8"
+
+htm{font-size: 20px; }
+body{font-size: 1rem;  overflow-x:hidden; width: 100% }
+
+
+
+.main_wrap {height: 100vh;}
+#header {position: fixed;;  top: 0; left: 0; right: 0;  box-shadow: 0 2px 8px 0 hsla(0,0%,90.8%,.0); height: 95px; box-sizing: border-box; background-color: #fff; z-index: 30; opacity: .95;}
+#header .content {height: 100%; max-width: 1780px; margin: 0 auto; padding: 0; box-sizing: border-box;}
+#header .content .logo { display: inline-flex; align-items: center; justify-content: center; height: 100%}
+#header .content .menu { display: inline-flex; float: right; height: 95px; align-items: center;}
+#header .content .menu ul li {float: left; padding-left:40px;}
+#header .content .menu ul li a {display: block; position: relative;font-size: 1rem;  font-weight: 500;height:40px; line-height:40px;}
+#header .content .menu ul li a:before {content: ""; position: absolute; left:0; bottom:12px; width:0; height: 2px; background-color:#000; transition: width 0.5s;}
+#header .content .menu ul li a:hover:before {width: 100%;}
+
+
+
+.banner { display: block; padding-top: 95px; margin: 0 auto; box-sizing: border-box;}
+
+.banner {width: 1560px; height:100%; margin: 0 auto; box-sizing: border-box; }
+.banner .text { display: inline-block; padding-top: 13.5%; height: 100%}
+.banner .main_text{font-size: 3.1rem; color: #282A31; padding-bottom: 30px; letter-spacing: -.5px; font-weight: 900;}
+.banner .main_text span{color: #2865FF;}
+.banner .btn { background: #2865FF ; width: 180px; height: 55px; display:block; border-radius: 5px; font-size: 1.1rem; text-align: center; line-height: 55px; transition: .2s all; border: 2px solid transparent;}
+.banner .btn:hover {background: #fff; border: 2px solid #2865FF; }
+.banner .btn a {color: #fff; transition: .2s all;}
+.banner .btn:hover a {color: #2865FF;}
+.banner .info_text { font-size: .94rem; color: #757b90; line-height: 1.5rem; position: absolute; bottom:85px; }
+.banner .main_img { display:inline-block;position: absolute; float: right; right: -7px; z-index: -1; padding-top:94px; bottom: 0;}
+.banner .scroll {display: inline-block; float: right; right: 170px;position: absolute; bottom:73px; filter:drop-shadow(8px 10px 15px #B4B4BC);}
+
+/*포트폴리오*/
+#pg_main .portfolio {display: block;width:1560px;margin: 0 auto; padding-top: 195px; }
+#pg_main .portfolio h1 {display: inline-flex; font-size: 1.7rem; color:rgba(#1D1F22,1); padding-bottom: 35px; font-weight: 900;}
+#pg_main .portfolio .filter {display: inline-flex; float: right; padding-top:17px; font-size: 1rem;}
+#pg_main .portfolio .filter ul li {float: left; padding-left: 17px; color: #646771; font-weight: 300;}
+
+#pg_main .portfolio .pf_list { display: inline-block;  padding-bottom: 250px; margin: 0 auto; position: relative;}
+#pg_main .portfolio .pf_list .card { float: left; display: inline-block; padding-bottom: 50px; padding-right: 60px; transition: opacity 0.35s, transform 0.35s; ;width:480px; height: 360px; }
+#pg_main .portfolio .pf_list .card:nth-child(3n) {padding-right: 0px;}
+#pg_main .portfolio .pf_list .card .inner_img {overflow:hidden; width:100%; height:360px;  border-radius: 6px; position: relative;   }
+#pg_main .portfolio .pf_list .inner_img:hover {box-shadow: 13px 13px 35px rgba(193,198,217,1); background-color:#2865FF;}
+#pg_main .portfolio .pf_list .card .overlay .title {font-size: 1.8rem; position: absolute; top: 47%; left: 50%; transform: translate(-50%, -50%);   color: #fff; white-space: nowrap; overflow: hidden; font-weight: 600;  }
+#pg_main .portfolio .pf_list .card .overlay p {color: #CBD7F6; font-size:1.1rem; position: absolute; top: 59%; left: 50%; transform: translate(-50%, -50%); font-weight: 300; white-space: nowrap; border-radius: 5px;}
+#pg_main .portfolio .pf_list .card .overlay {opacity: 0; }
+#pg_main .portfolio .pf_list .card .inner_img:hover .overlay {opacity: 1; }
+#pg_main .portfolio .pf_list .card .inner_img img {  top: 50%; left: 50%; transform: (-50%,-50%);  transition: all 0.3s ease-in-out;  }
+#pg_main .portfolio .pf_list .card .inner_img:hover img { transform: scale(1.03); color:#26262D; opacity: .1; }
+
+
+/*포트폴리오 팝업*/
+.body.noscroll {overflow-y: hidden;}
+#pg_main .portfolio .popup_1 {visibility:hidden ; background-color:rgba(0,0,0,0.9); top: 0; left: 0; z-index: 999; width: 100%; height: 100%; position:fixed; overflow-y: scroll; box-sizing: border-box;}
+#pg_main .portfolio .popup_1.active {visibility: visible;}
+#pg_main .portfolio .popup_1 .popup_wrap  {color: #fff; width:1400px; margin: 0 auto; display: block; height: 100%; padding-top: 70px;}
+#pg_main .portfolio .popup_1 .popup_wrap h2 {display: inline-block; font-size: 1.5rem; font-weight: 400; padding-bottom: 24px; padding-top: 10px; }
+#pg_main .portfolio .popup_1 .popup_cancel {position: fixed; right: 0; padding-top:20px; padding-right:20px;z-index: 1; float: right; cursor: pointer; opacity: 0.7;}
+#pg_main .portfolio .popup_1 .popup_cancel:hover{opacity: 1;}
+#pg_main .portfolio .popup_1 .popup_wrap .tool{display: inline-block; float: right; cursor: pointer;}
+#pg_main .portfolio .popup_1 .popup_wrap .tool ul li{float: left; padding-left: 15px;}
+
+
+#pg_main .portfolio .popup_1 .popup_wrap .project {position: absolute;  box-sizing: border-box; border-radius: 10px;  background:#fff; width: 1400px; height: 2685px; margin-bottom: 100px;}
+
+
+#pg_main .about {background-color: #3562ff; width: 100%; height: 900px; position: relative;}
+#pg_main .about .about_wrap{width:1560px; margin: 0 auto;}
+#pg_main .about .about_wrap .img {display: inline-block;  margin-top: 160px; }
+#pg_main .about .about_wrap .info {display: inline-block;  position: absolute;color: #fff; margin-left: -30px;  z-index: 5;font-size: 2.2rem;font-weight: 300;  font-weight: 600; line-height: 47px; padding-top: 240px; margin-bottom:10px; }
+#pg_main .about  .about_wrap  .detail {display:inline-block;float: right; right: 0;z-index: 10; padding-top: 520px;}
+#pg_main .about  .about_wrap  .detail ul {display:inline-block; float: right; right: 0}
+#pg_main .about  .about_wrap  .detail li {float: left; line-height: 28px; font-size: .89rem; color: #fff; font-weight: 300; padding-left: 30px}
+#pg_main .about  .about_wrap  .detail .year {letter-spacing: 1.1px; color: #87A6F6}
+#pg_main .about  .about_wrap  .detail .ht {padding-left: 30px}
+
+
+
+
+
+
+#pg_main .skills {display: block;  width: 100% ;height: 310px; margin-top: -140px; position: relative; box-sizing: border-box;}
+#pg_main .skills .bg { position: absolute; display: inline-block; width: 91%; height: 310px; background-color: #222229; float: right; right: -7px; border-radius: 7px;}
+#pg_main .skills .content {position: absolute; display: inline-block; width: 100%; z-index: 4; margin-left: 30px; box-sizing: border-box;}
+#pg_main .skills .content ul { width: 828px; height:310px; margin: auto; padding-top:110px;box-sizing: border-box; align-items: center;}
+#pg_main .skills .content ul li {float: left; padding: 0 10px;}
+#pg_main .skills .content dl {width: 98px; height: 119px; }
+#pg_main .skills .content dl dt {text-align: center;}
+#pg_main .skills .content dl .title {text-align: center; padding-top: 20px;  color: #B2B2B2; font-weight:300; font-size:.85rem;}
+#pg_main .skills .content dl .per {text-align: center; font-size:.85rem; font-weight: 700; padding-top: 13px; color: #30C4EF;}
+#pg_main .skills .content dl .ai {color: #EC9636;}
+#pg_main .skills .content dl .in {color: #EB68A1;}
+#pg_main .skills .content dl .ae {color: #AD66FC;}
+#pg_main .skills .content dl .xd {color: #E844B8;}
+#pg_main .skills .content dl .sk {color: #FDAD00;}
+#pg_main .skills .content dl .br {color: #8BC48D;}
+
+
+
+
+
+
+#contact {display: block;  width:1780px; height: 310px;  margin: 0 auto;}
+#contact .contact_wrap {display: block; margin: 0 auto; height: 100%; float: right; right: 0; padding-top: 250px; box-sizing: border-box;}
+#contact .contact_wrap li {float: left; padding-left: 40px; font-size: 1.1rem;  font-weight: 500; color: #282A31;}
+#contact .contact_wrap li a{display: block; position: relative;}
+#contact .contact_wrap li a:before {content: ""; position: absolute; left:0; bottom:.5px; width:0; height: .06rem; background-color:#282A31; transition: width 0.5s;}
+#contact .contact_wrap li a:hover:before {width: 100%;}
+
+#footer {display: block;  width:1780px;  margin: 0 auto; height: 70px;}
+#footer .footer_wrap {display: block;  height: 100%; color: #282A31; font-size: .9rem; font-weight: 300}
+#footer .copy {display: inline-block;}
+#footer .info {display: inline-block; float: right; font-weight: 400}
